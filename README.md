@@ -1,5 +1,5 @@
 # FieldTripCalculations
-This macro takes raw data from a system and manipulates it so that a finance employee is quickly able to input how much certain bus drivers for certain trips need to be paid.
+This macro takes raw data from a system and manipulates it so that a finance employee is quickly able to input how much certain bus drivers for certain trips need to be paid. The employee needed to have certain columns and rows highlighted based on whether a trip was for a sports event. I made a pushable button and tied a macro to it that she could click and have it highlight for her. She also needed to be able to send the data to a transportation administrator who would then fill in what drivers were used for certain trips in a blank column.  After receiving this data she needed those rows to be highlighted for those drivers.  I wrote another macro that would highlight those rows based on when data was input into it.
 
 ```vbscript
 Public Sub main()
